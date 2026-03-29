@@ -1,58 +1,69 @@
-# oss-audit-24BAI10387
+# OSS Audit Project
 
-Name - Ayush Choudhary
-Registration No. / Roll No. - 24BAI10387
-Chosen Software - Python
+## Student Details
+- Name: Ayush Choudhary  
+- Registration No.: 24BAI10387  
+- Chosen Software: Python  
 
+---
 
-Project Description
+## Project Description
 This project focuses on analyzing Python as an open-source software. It includes working with Linux, understanding system behavior, and implementing shell scripts to automate tasks.
 
+---
 
-Descriptions of Scripts:
-1) Script 1: System Identity Report
-This script displays basic system information such as:
-- Kernel version  
-- Logged-in user  
-- System uptime  
-- Current date and time  
-It uses variables, echo, and command substitution.
+## Linux Environment
+- OS: Ubuntu (Virtual Machine - VirtualBox)  
+- Installation: apt package manager  
 
-2) Script 2: FOSS Package Inspector
-This script checks whether Python is installed on the system.  
-It displays package details and prints a short description using a case statement.
+---
 
-3) Script 3: Disk and Permission Auditor
-This script analyzes important system directories like '/etc', '/home', and '/var/log'.  
-It shows:
-- Permissions  
-- Owner and group  
-- Directory size  
-It uses loops and Linux commands like 'ls', 'du', and 'awk'.
+## Scripts Description
 
-4) Script 4: Log File Analyzer
-This script reads a log file and counts how many lines contain a specific keyword (like "error").  
-It also displays the last few matching lines.  
-It demonstrates file reading, loops, and conditional statements.
+### Script 1: System Identity Report
+Displays system information such as kernel version, user, uptime, and date.
 
-5) Script 5: Open Source Manifesto Generator
-This script takes user input and generates a personalized open-source manifesto.  
-It saves the output into a '.txt' file.  
-It demonstrates user input handling and file writing.
+---
 
+### Script 2: FOSS Package Inspector
+Checks whether Python is installed and displays package details.
 
-How to run Scripts:
-Step 1: Open Terminal and navigate to the Project folder.
-Step 2: Type- chmod +x script_name.sh
-Step 3: Press Enter
-Step 4: Now type- ./script_name.sh
-Step 5: Your script will run and generate the required output.
+---
 
+### Script 3: Disk and Permission Auditor
+Analyzes directories like `/etc`, `/home`, `/var/log`, and shows permissions, owner, and size.
 
-Dependencies:
-Bash Shell
-Ubuntu Linux
-Python3 (install via apt)
+---
+
+### Script 4: Log File Analyzer
+Counts occurrences of a keyword (like "error") in log files and displays matching lines.
+
+---
+
+### Script 5: Open Source Manifesto Generator
+Takes user input and generates a manifesto saved in a `.txt` file.
+
+---
+
+## How to Run Scripts
+
+Navigate to the project folder:
+
+```bash
+cd oss_project
+```
+
+Make Script Executable
+
+```bash
+chmod +x script_name.sh
+```
+
+Run Script
+
+```bash
+./script_name.sh
+```
 
 
 
